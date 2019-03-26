@@ -6,5 +6,5 @@ def hello_t(array)
   end
 end
 
-names = []
+names = ["Tim", "Tom", "Jim"]
 
