@@ -6,5 +6,4 @@ def hello_t(array)
       puts "#{arr}"
     end
   end
-return hello_t(array)
 end
