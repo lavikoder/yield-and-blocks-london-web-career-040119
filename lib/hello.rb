@@ -6,4 +6,5 @@ def hello_t(names)
       puts "#{name}"
     end
   end
+return hello_t(names)
 end
