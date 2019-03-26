@@ -1,12 +1,8 @@
-names = ["Tim", "Tom", "Jim"]
-
-def hello_t(array) 
-
-  array.collect do |arr|
-    if arr.start_with?("T")
-      yield arr
-      puts "Hi, #{arr}"
-    end
+def hello_t(array)
+  i = 0
+  while i < array.length
+    yield array[i]
+    i = i + 1
   end
 end
 
