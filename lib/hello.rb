@@ -1,10 +1,10 @@
 names = ["Tim", "Tom", "Jim"]
 
-def hello_t(names) 
-  names.collect do |name|
-    if name.start_with?("T")
-      puts "#{name}"
+def hello_t(array) 
+  array.collect do |arr|
+    if arr.start_with?("T")
+      puts "#{arr}"
     end
   end
-return hello_t(names)
+return hello_t(array)
 end
