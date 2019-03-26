@@ -9,4 +9,4 @@ def hello_t(array)
   end
 end
 
-hello_t()
+hello_t(["Tim", "Tom", "Jim"])
