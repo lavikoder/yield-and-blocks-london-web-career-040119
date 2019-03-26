@@ -1,6 +1,12 @@
-def hello_t
+names = ["Tim", "Tom", "Jim"]
 
+def hello_t(array)
+  array.map! do |arr|
+    if arr.start_with? ("T")
+      yield
+      puts "Hi, #{arr}"
+    end
+  end
 end
 
-# call your method here!
-
+hello_t(names)
